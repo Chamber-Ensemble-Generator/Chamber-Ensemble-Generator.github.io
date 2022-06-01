@@ -19,19 +19,19 @@ The data structure for each part of dataset (main_dataset, note_expression, synt
 
 ```
 string_track000001
-   └─── metadata.yaml
-   └─── mix.mid
-   └─── stems_MIDI
-   │    └─── 0_violin.mid
-   │    └─── 1_violin.mid
-   │    └─── 2_viola.mid
-   │    └─── 3_cello.mid 
-   └─── mix.wav
-   └─── stems_audio
-        └─── 0_violin.wav
-        └─── 1_violin.wav
-        └─── 2_viola.wav
-        └─── 3_cello.wav 
+   ├── metadata.yaml
+   ├── mix.mid
+   ├── stems_MIDI
+   │    ├── 0_violin.mid
+   │    ├── 1_violin.mid
+   │    ├── 2_viola.mid
+   │    ├── 3_cello.mid 
+   ├── mix.wav
+   └── stems_audio
+        ├── 0_violin.wav
+        ├── 1_violin.wav
+        ├── 2_viola.wav
+        └── 3_cello.wav 
 ```
 
 - `metadata.yaml` contains metadata for each track (see below).
